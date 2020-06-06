@@ -1,0 +1,132 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    display: flex !important;
+    position: static !important;
+}
+
+.nav-bt {
+    border: none;
+    background-color: #e3f2fd;
+    height: 40px;
+    font-weight: bolder;
+}
+
+.nav-bt:hover {
+    color: white !important;
+    border: 1px solid black !important;
+    border-radius: 15px;
+    background-color: black;
+}
+
+.nav-bt:active {
+    color: blueviolet !important;
+}
+
+.fa-shopping-basket {
+    margin-top: 2px;
+    font-size: 35px !important;
+}
+
+.fa-shopping-basket:active {
+    color: burlywood;
+}
+
+.fa-phone {
+    margin-top: 2px;
+    font-size: 40px !important;
+}
+
+.fa-phone:active {
+    color: burlywood;
+}
+
+.marq {
+    margin-top: 20px;
+    background-color: #e3f2fd;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.carousel {
+    margin-top: 12px;
+}
+
+.fa-truck {
+    font-size: 50px !important;
+    margin-left: 12px;
+    margin-right: 10px;
+    color: darkgreen;
+}
+
+.fa-phone-square {
+    font-size: 50px !important;
+    margin-left: 12px;
+    margin-right: 10px;
+    color: darkgreen;
+}
+
+.fa-thumbs-up {
+    font-size: 50px !important;
+    margin-left: 12px;
+    margin-right: 10px;
+    color: darkgreen;
+}
+
+.fa-money {
+    font-size: 50px !important;
+    margin-right: 12px;
+    color: darkgreen;
+}
+
+.card1,
+.card2,
+.card3,
+.card4 {
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color: whitesmoke;
+    box-shadow: 2px 6px 15px black;
+    justify-content: center;
+    align-items: center;
+    color: darkgreen;
+    margin-top: 18px;
+}
+
+.mainCard {
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:600px) {
+    .card1,
+    .card2,
+    .card3,
+    .card4 {
+        width: 100%;
+    }
+}
+
+.card {
+    text-align: center;
+    margin-top: 18px;
+    box-shadow: 2px 4px 6px;
+}
+
+.btn-primary {
+    background-color: black;
+    color: whitesmoke;
+    border: 1px solid black;
+}
+
+.btn-primary:hover {
+    background-color: grey;
+    border: 1px solid grey;
+}
