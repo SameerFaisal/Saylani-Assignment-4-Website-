@@ -120,6 +120,10 @@ body {
     box-shadow: 2px 4px 6px;
 }
 
+.items {
+    align-items: center;
+}
+
 .btn-primary {
     background-color: black;
     color: whitesmoke;

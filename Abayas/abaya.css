@@ -1,0 +1,54 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+}
+
+.nav-bt {
+    border: none;
+    background-color: #e3f2fd;
+    height: 40px;
+    font-weight: bolder;
+}
+
+.nav-bt:hover {
+    color: white !important;
+    border: 1px solid black !important;
+    border-radius: 15px;
+    background-color: black;
+}
+
+.nav-bt:active {
+    color: blueviolet !important;
+}
+
+.fa-shopping-basket {
+    margin-top: 2px;
+    font-size: 35px !important;
+}
+
+.fa-shopping-basket:active {
+    color: burlywood;
+}
+
+.fa-phone {
+    margin-top: 2px;
+    font-size: 35px !important;
+}
+
+.fa-phone:active {
+    color: burlywood;
+}
+
+.card {
+    text-align: center;
+    margin-top: 18px;
+    box-shadow: 2px 4px 6px;
+}

@@ -1,0 +1,44 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    display: flex !important;
+    position: static !important;
+}
+
+.nav-bt {
+    border: none;
+    background-color: #e3f2fd;
+    height: 40px;
+    font-weight: bolder;
+}
+
+.nav-bt:hover {
+    color: white !important;
+    border: 1px solid black !important;
+    border-radius: 15px;
+    background-color: black;
+}
+
+.nav-bt:active {
+    color: blueviolet !important;
+}
+
+.fa-shopping-basket {
+    margin-top: 2px;
+    font-size: 35px !important;
+}
+
+.fa-shopping-basket:active {
+    color: burlywood;
+}
+
+.fa-phone {
+    margin-top: 2px;
+    font-size: 40px !important;
+}
+
+.fa-phone:active {
+    color: burlywood;
+}
